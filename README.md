@@ -7,4 +7,4 @@ Camera control:
 
 W S A D
 
-Q - quid
+Q - quit
