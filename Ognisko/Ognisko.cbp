@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Ognisko" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Release">
+				<Option output="Ognisko" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+			<Add directory="../../../../../Program Files/CodeBlocks/MinGW/include/glm" />
+			<Add directory="../../../../../Program Files/CodeBlocks/MinGW/include" />
+		</Compiler>
+		<Linker>
+			<Add option="-static-libstdc++" />
+			<Add option="-static-libgcc" />
+			<Add option="-static" />
+			<Add library="opengl32" />
+			<Add library="glew32" />
+			<Add library="freeglut" />
+			<Add library="glu32" />
+			<Add library="gdi32" />
+			<Add library="winmm" />
+			<Add directory="../../../../../Program Files/CodeBlocks/MinGW/lib" />
+		</Linker>
+		<Unit filename="Model_obj.h" />
+		<Unit filename="Particle.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="shader.frag" />
+		<Unit filename="shader.h" />
+		<Unit filename="shader.vert" />
+		<Extensions />
+	</Project>
+</CodeBlocks_project_file>

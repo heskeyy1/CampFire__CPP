@@ -1,0 +1,1168 @@
+# depslib dependency file v1.0
+1657144027 source:c:\users\hyski\desktop\gl4lighting_freeglut\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<gl/glew.h>
+	<gl/freeglut.h>
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	<glm/gtx/rotate_vector.hpp>
+	<GL/glut.h>
+	<GL/glext.h>
+	<time.h>
+	"object.h"
+	"shader.h"
+	"particles.h"
+
+1653636584 c:\program files\codeblocks\mingw\include\gl\glew.h
+	<stddef.h>
+	<inttypes.h>
+	<stdint.h>
+	<inttypes.h>
+	<Availability.h>
+	<OpenGL/glu.h>
+	<GL/glu.h>
+
+1301111164 c:\program files\codeblocks\mingw\include\gl\glu.h
+	<stddef.h>
+	<GL/gl.h>
+
+1301111164 c:\program files\codeblocks\mingw\include\gl\gl.h
+
+1648551468 c:\program files\codeblocks\mingw\include\gl\freeglut.h
+	"freeglut_std.h"
+	"freeglut_ext.h"
+
+1648551468 c:\program files\codeblocks\mingw\include\gl\freeglut_std.h
+	<windows.h>
+	<EGL/egl.h>
+	<GLES/gl.h>
+	<GLES2/gl2.h>
+	<OpenGL/gl.h>
+	<OpenGL/glu.h>
+	<GL/gl.h>
+	<GL/glu.h>
+	<stdlib.h>
+
+1648551468 c:\program files\codeblocks\mingw\include\gl\freeglut_ext.h
+	<stdarg.h>
+
+1654672425 c:\program files\codeblocks\mingw\include\glm\glm.hpp
+	"detail/_fixes.hpp"
+	"detail/setup.hpp"
+	<cmath>
+	<climits>
+	<cfloat>
+	<limits>
+	<cassert>
+	"fwd.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"trigonometric.hpp"
+	"exponential.hpp"
+	"common.hpp"
+	"packing.hpp"
+	"geometric.hpp"
+	"matrix.hpp"
+	"vector_relational.hpp"
+	"integer.hpp"
+
+1654672427 c:\program files\codeblocks\mingw\include\glm\detail\_fixes.hpp
+	<cmath>
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\detail\setup.hpp
+	<cassert>
+	<cstddef>
+	"../simd/platform.h"
+	<CL/sycl.hpp>
+	<limits>
+	<cstdint>
+	<type_traits>
+
+1654672437 c:\program files\codeblocks\mingw\include\glm\simd\platform.h
+	<cuda.h>
+	<immintrin.h>
+	<immintrin.h>
+	<popcntintrin.h>
+	<nmmintrin.h>
+	<smmintrin.h>
+	<tmmintrin.h>
+	<pmmintrin.h>
+	<emmintrin.h>
+	"neon.h"
+
+1654672437 c:\program files\codeblocks\mingw\include\glm\simd\neon.h
+	<arm_neon.h>
+
+1654672425 c:\program files\codeblocks\mingw\include\glm\fwd.hpp
+	"detail/qualifier.hpp"
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\detail\qualifier.hpp
+	"setup.hpp"
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\vec2.hpp
+	"./ext/vector_bool2.hpp"
+	"./ext/vector_bool2_precision.hpp"
+	"./ext/vector_float2.hpp"
+	"./ext/vector_float2_precision.hpp"
+	"./ext/vector_double2.hpp"
+	"./ext/vector_double2_precision.hpp"
+	"./ext/vector_int2.hpp"
+	"./ext/vector_int2_sized.hpp"
+	"./ext/vector_uint2.hpp"
+	"./ext/vector_uint2_sized.hpp"
+
+1654672431 c:\program files\codeblocks\mingw\include\glm\ext\vector_bool2.hpp
+	"../detail/type_vec2.hpp"
+
+1654672427 c:\program files\codeblocks\mingw\include\glm\detail\type_vec2.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec2.inl"
+
+1654672427 c:\program files\codeblocks\mingw\include\glm\detail\_swizzle.hpp
+
+1654672427 c:\program files\codeblocks\mingw\include\glm\detail\_swizzle_func.hpp
+
+1654672427 c:\program files\codeblocks\mingw\include\glm\detail\type_vec2.inl
+	"./compute_vector_relational.hpp"
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\detail\compute_vector_relational.hpp
+	"setup.hpp"
+	<limits>
+
+1654672431 c:\program files\codeblocks\mingw\include\glm\ext\vector_bool2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1654672431 c:\program files\codeblocks\mingw\include\glm\ext\vector_float2.hpp
+	"../detail/type_vec2.hpp"
+
+1654672431 c:\program files\codeblocks\mingw\include\glm\ext\vector_float2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1654672431 c:\program files\codeblocks\mingw\include\glm\ext\vector_double2.hpp
+	"../detail/type_vec2.hpp"
+
+1654672431 c:\program files\codeblocks\mingw\include\glm\ext\vector_double2_precision.hpp
+	"../detail/type_vec2.hpp"
+
+1654672431 c:\program files\codeblocks\mingw\include\glm\ext\vector_int2.hpp
+	"../detail/type_vec2.hpp"
+
+1654672431 c:\program files\codeblocks\mingw\include\glm\ext\vector_int2_sized.hpp
+	"../ext/vector_int2.hpp"
+	"../ext/scalar_int_sized.hpp"
+
+1654672430 c:\program files\codeblocks\mingw\include\glm\ext\scalar_int_sized.hpp
+	"../detail/setup.hpp"
+
+1654672432 c:\program files\codeblocks\mingw\include\glm\ext\vector_uint2.hpp
+	"../detail/type_vec2.hpp"
+
+1654672432 c:\program files\codeblocks\mingw\include\glm\ext\vector_uint2_sized.hpp
+	"../ext/vector_uint2.hpp"
+	"../ext/scalar_uint_sized.hpp"
+
+1654672430 c:\program files\codeblocks\mingw\include\glm\ext\scalar_uint_sized.hpp
+	"../detail/setup.hpp"
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\vec3.hpp
+	"./ext/vector_bool3.hpp"
+	"./ext/vector_bool3_precision.hpp"
+	"./ext/vector_float3.hpp"
+	"./ext/vector_float3_precision.hpp"
+	"./ext/vector_double3.hpp"
+	"./ext/vector_double3_precision.hpp"
+	"./ext/vector_int3.hpp"
+	"./ext/vector_int3_sized.hpp"
+	"./ext/vector_uint3.hpp"
+	"./ext/vector_uint3_sized.hpp"
+
+1654672431 c:\program files\codeblocks\mingw\include\glm\ext\vector_bool3.hpp
+	"../detail/type_vec3.hpp"
+
+1654672427 c:\program files\codeblocks\mingw\include\glm\detail\type_vec3.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec3.inl"
+
+1654672427 c:\program files\codeblocks\mingw\include\glm\detail\type_vec3.inl
+	"compute_vector_relational.hpp"
+
+1654672431 c:\program files\codeblocks\mingw\include\glm\ext\vector_bool3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1654672431 c:\program files\codeblocks\mingw\include\glm\ext\vector_float3.hpp
+	"../detail/type_vec3.hpp"
+
+1654672431 c:\program files\codeblocks\mingw\include\glm\ext\vector_float3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1654672431 c:\program files\codeblocks\mingw\include\glm\ext\vector_double3.hpp
+	"../detail/type_vec3.hpp"
+
+1654672431 c:\program files\codeblocks\mingw\include\glm\ext\vector_double3_precision.hpp
+	"../detail/type_vec3.hpp"
+
+1654672431 c:\program files\codeblocks\mingw\include\glm\ext\vector_int3.hpp
+	"../detail/type_vec3.hpp"
+
+1654672431 c:\program files\codeblocks\mingw\include\glm\ext\vector_int3_sized.hpp
+	"../ext/vector_int3.hpp"
+	"../ext/scalar_int_sized.hpp"
+
+1654672432 c:\program files\codeblocks\mingw\include\glm\ext\vector_uint3.hpp
+	"../detail/type_vec3.hpp"
+
+1654672432 c:\program files\codeblocks\mingw\include\glm\ext\vector_uint3_sized.hpp
+	"../ext/vector_uint3.hpp"
+	"../ext/scalar_uint_sized.hpp"
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\vec4.hpp
+	"./ext/vector_bool4.hpp"
+	"./ext/vector_bool4_precision.hpp"
+	"./ext/vector_float4.hpp"
+	"./ext/vector_float4_precision.hpp"
+	"./ext/vector_double4.hpp"
+	"./ext/vector_double4_precision.hpp"
+	"./ext/vector_int4.hpp"
+	"./ext/vector_int4_sized.hpp"
+	"./ext/vector_uint4.hpp"
+	"./ext/vector_uint4_sized.hpp"
+
+1654672431 c:\program files\codeblocks\mingw\include\glm\ext\vector_bool4.hpp
+	"../detail/type_vec4.hpp"
+
+1654672427 c:\program files\codeblocks\mingw\include\glm\detail\type_vec4.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec4.inl"
+
+1654672427 c:\program files\codeblocks\mingw\include\glm\detail\type_vec4.inl
+	"compute_vector_relational.hpp"
+	"type_vec4_simd.inl"
+
+1654672427 c:\program files\codeblocks\mingw\include\glm\detail\type_vec4_simd.inl
+
+1654672431 c:\program files\codeblocks\mingw\include\glm\ext\vector_bool4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1654672431 c:\program files\codeblocks\mingw\include\glm\ext\vector_float4.hpp
+	"../detail/type_vec4.hpp"
+
+1654672431 c:\program files\codeblocks\mingw\include\glm\ext\vector_float4_precision.hpp
+	"../detail/type_vec4.hpp"
+
+1654672431 c:\program files\codeblocks\mingw\include\glm\ext\vector_double4.hpp
+	"../detail/type_vec4.hpp"
+
+1654672431 c:\program files\codeblocks\mingw\include\glm\ext\vector_double4_precision.hpp
+	"../detail/setup.hpp"
+	"../detail/type_vec4.hpp"
+
+1654672431 c:\program files\codeblocks\mingw\include\glm\ext\vector_int4.hpp
+	"../detail/type_vec4.hpp"
+
+1654672431 c:\program files\codeblocks\mingw\include\glm\ext\vector_int4_sized.hpp
+	"../ext/vector_int4.hpp"
+	"../ext/scalar_int_sized.hpp"
+
+1654672432 c:\program files\codeblocks\mingw\include\glm\ext\vector_uint4.hpp
+	"../detail/type_vec4.hpp"
+
+1654672432 c:\program files\codeblocks\mingw\include\glm\ext\vector_uint4_sized.hpp
+	"../ext/vector_uint4.hpp"
+	"../ext/scalar_uint_sized.hpp"
+
+1654672425 c:\program files\codeblocks\mingw\include\glm\mat2x2.hpp
+	"./ext/matrix_double2x2.hpp"
+	"./ext/matrix_double2x2_precision.hpp"
+	"./ext/matrix_float2x2.hpp"
+	"./ext/matrix_float2x2_precision.hpp"
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_double2x2.hpp
+	"../detail/type_mat2x2.hpp"
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\detail\type_mat2x2.hpp
+	"type_vec2.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x2.inl"
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\detail\type_mat2x2.inl
+	"../matrix.hpp"
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\matrix.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"vec2.hpp"
+	"vec3.hpp"
+	"vec4.hpp"
+	"mat2x2.hpp"
+	"mat2x3.hpp"
+	"mat2x4.hpp"
+	"mat3x2.hpp"
+	"mat3x3.hpp"
+	"mat3x4.hpp"
+	"mat4x2.hpp"
+	"mat4x3.hpp"
+	"mat4x4.hpp"
+	"detail/func_matrix.inl"
+
+1654672425 c:\program files\codeblocks\mingw\include\glm\mat2x3.hpp
+	"./ext/matrix_double2x3.hpp"
+	"./ext/matrix_double2x3_precision.hpp"
+	"./ext/matrix_float2x3.hpp"
+	"./ext/matrix_float2x3_precision.hpp"
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_double2x3.hpp
+	"../detail/type_mat2x3.hpp"
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\detail\type_mat2x3.hpp
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x3.inl"
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\detail\type_mat2x3.inl
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_double2x3_precision.hpp
+	"../detail/type_mat2x3.hpp"
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_float2x3.hpp
+	"../detail/type_mat2x3.hpp"
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_float2x3_precision.hpp
+	"../detail/type_mat2x3.hpp"
+
+1654672425 c:\program files\codeblocks\mingw\include\glm\mat2x4.hpp
+	"./ext/matrix_double2x4.hpp"
+	"./ext/matrix_double2x4_precision.hpp"
+	"./ext/matrix_float2x4.hpp"
+	"./ext/matrix_float2x4_precision.hpp"
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_double2x4.hpp
+	"../detail/type_mat2x4.hpp"
+
+1654672427 c:\program files\codeblocks\mingw\include\glm\detail\type_mat2x4.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat2x4.inl"
+
+1654672427 c:\program files\codeblocks\mingw\include\glm\detail\type_mat2x4.inl
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_double2x4_precision.hpp
+	"../detail/type_mat2x4.hpp"
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_float2x4.hpp
+	"../detail/type_mat2x4.hpp"
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_float2x4_precision.hpp
+	"../detail/type_mat2x4.hpp"
+
+1654672425 c:\program files\codeblocks\mingw\include\glm\mat3x2.hpp
+	"./ext/matrix_double3x2.hpp"
+	"./ext/matrix_double3x2_precision.hpp"
+	"./ext/matrix_float3x2.hpp"
+	"./ext/matrix_float3x2_precision.hpp"
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_double3x2.hpp
+	"../detail/type_mat3x2.hpp"
+
+1654672427 c:\program files\codeblocks\mingw\include\glm\detail\type_mat3x2.hpp
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x2.inl"
+
+1654672427 c:\program files\codeblocks\mingw\include\glm\detail\type_mat3x2.inl
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_double3x2_precision.hpp
+	"../detail/type_mat3x2.hpp"
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_float3x2.hpp
+	"../detail/type_mat3x2.hpp"
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_float3x2_precision.hpp
+	"../detail/type_mat3x2.hpp"
+
+1654672425 c:\program files\codeblocks\mingw\include\glm\mat3x3.hpp
+	"./ext/matrix_double3x3.hpp"
+	"./ext/matrix_double3x3_precision.hpp"
+	"./ext/matrix_float3x3.hpp"
+	"./ext/matrix_float3x3_precision.hpp"
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_double3x3.hpp
+	"../detail/type_mat3x3.hpp"
+
+1654672427 c:\program files\codeblocks\mingw\include\glm\detail\type_mat3x3.hpp
+	"type_vec3.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x3.inl"
+
+1654672427 c:\program files\codeblocks\mingw\include\glm\detail\type_mat3x3.inl
+	"../matrix.hpp"
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_double3x3_precision.hpp
+	"../detail/type_mat3x3.hpp"
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_float3x3.hpp
+	"../detail/type_mat3x3.hpp"
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_float3x3_precision.hpp
+	"../detail/type_mat3x3.hpp"
+
+1654672425 c:\program files\codeblocks\mingw\include\glm\mat3x4.hpp
+	"./ext/matrix_double3x4.hpp"
+	"./ext/matrix_double3x4_precision.hpp"
+	"./ext/matrix_float3x4.hpp"
+	"./ext/matrix_float3x4_precision.hpp"
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_double3x4.hpp
+	"../detail/type_mat3x4.hpp"
+
+1654672427 c:\program files\codeblocks\mingw\include\glm\detail\type_mat3x4.hpp
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat3x4.inl"
+
+1654672427 c:\program files\codeblocks\mingw\include\glm\detail\type_mat3x4.inl
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_double3x4_precision.hpp
+	"../detail/type_mat3x4.hpp"
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_float3x4.hpp
+	"../detail/type_mat3x4.hpp"
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_float3x4_precision.hpp
+	"../detail/type_mat3x4.hpp"
+
+1654672425 c:\program files\codeblocks\mingw\include\glm\mat4x2.hpp
+	"./ext/matrix_double4x2.hpp"
+	"./ext/matrix_double4x2_precision.hpp"
+	"./ext/matrix_float4x2.hpp"
+	"./ext/matrix_float4x2_precision.hpp"
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_double4x2.hpp
+	"../detail/type_mat4x2.hpp"
+
+1654672427 c:\program files\codeblocks\mingw\include\glm\detail\type_mat4x2.hpp
+	"type_vec2.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x2.inl"
+
+1654672427 c:\program files\codeblocks\mingw\include\glm\detail\type_mat4x2.inl
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_double4x2_precision.hpp
+	"../detail/type_mat4x2.hpp"
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_float4x2.hpp
+	"../detail/type_mat4x2.hpp"
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_float4x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\mat4x3.hpp
+	"./ext/matrix_double4x3.hpp"
+	"./ext/matrix_double4x3_precision.hpp"
+	"./ext/matrix_float4x3.hpp"
+	"./ext/matrix_float4x3_precision.hpp"
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_double4x3.hpp
+	"../detail/type_mat4x3.hpp"
+
+1654672427 c:\program files\codeblocks\mingw\include\glm\detail\type_mat4x3.hpp
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x3.inl"
+
+1654672427 c:\program files\codeblocks\mingw\include\glm\detail\type_mat4x3.inl
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_double4x3_precision.hpp
+	"../detail/type_mat4x3.hpp"
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_float4x3.hpp
+	"../detail/type_mat4x3.hpp"
+
+1654672429 c:\program files\codeblocks\mingw\include\glm\ext\matrix_float4x3_precision.hpp
+	"../detail/type_mat4x3.hpp"
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\mat4x4.hpp
+	"./ext/matrix_double4x4.hpp"
+	"./ext/matrix_double4x4_precision.hpp"
+	"./ext/matrix_float4x4.hpp"
+	"./ext/matrix_float4x4_precision.hpp"
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_double4x4.hpp
+	"../detail/type_mat4x4.hpp"
+
+1654672427 c:\program files\codeblocks\mingw\include\glm\detail\type_mat4x4.hpp
+	"type_vec4.hpp"
+	<limits>
+	<cstddef>
+	"type_mat4x4.inl"
+
+1654672427 c:\program files\codeblocks\mingw\include\glm\detail\type_mat4x4.inl
+	"../matrix.hpp"
+	"type_mat4x4_simd.inl"
+
+1654672427 c:\program files\codeblocks\mingw\include\glm\detail\type_mat4x4_simd.inl
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_double4x4_precision.hpp
+	"../detail/type_mat4x4.hpp"
+
+1654672429 c:\program files\codeblocks\mingw\include\glm\ext\matrix_float4x4.hpp
+	"../detail/type_mat4x4.hpp"
+
+1654672429 c:\program files\codeblocks\mingw\include\glm\ext\matrix_float4x4_precision.hpp
+	"../detail/type_mat4x4.hpp"
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\detail\func_matrix.inl
+	"../geometric.hpp"
+	<limits>
+	"func_matrix_simd.inl"
+
+1654672425 c:\program files\codeblocks\mingw\include\glm\geometric.hpp
+	"detail/type_vec3.hpp"
+	"detail/func_geometric.inl"
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\detail\func_geometric.inl
+	"../exponential.hpp"
+	"../common.hpp"
+	"func_geometric_simd.inl"
+
+1654672425 c:\program files\codeblocks\mingw\include\glm\exponential.hpp
+	"detail/type_vec1.hpp"
+	"detail/type_vec2.hpp"
+	"detail/type_vec3.hpp"
+	"detail/type_vec4.hpp"
+	<cmath>
+	"detail/func_exponential.inl"
+
+1654672427 c:\program files\codeblocks\mingw\include\glm\detail\type_vec1.hpp
+	"qualifier.hpp"
+	"_swizzle.hpp"
+	"_swizzle_func.hpp"
+	<cstddef>
+	"type_vec1.inl"
+
+1654672427 c:\program files\codeblocks\mingw\include\glm\detail\type_vec1.inl
+	"./compute_vector_relational.hpp"
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\detail\func_exponential.inl
+	"../vector_relational.hpp"
+	"_vectorize.hpp"
+	<limits>
+	<cmath>
+	<cassert>
+	"func_exponential_simd.inl"
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\vector_relational.hpp
+	"detail/qualifier.hpp"
+	"detail/setup.hpp"
+	"detail/func_vector_relational.inl"
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\detail\func_vector_relational.inl
+	"func_vector_relational_simd.inl"
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\detail\func_vector_relational_simd.inl
+
+1654672427 c:\program files\codeblocks\mingw\include\glm\detail\_vectorize.hpp
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\detail\func_exponential_simd.inl
+	"../simd/exponential.h"
+
+1654672436 c:\program files\codeblocks\mingw\include\glm\simd\exponential.h
+	"platform.h"
+
+1654672425 c:\program files\codeblocks\mingw\include\glm\common.hpp
+	"detail/qualifier.hpp"
+	"detail/_fixes.hpp"
+	"detail/func_common.inl"
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\detail\func_common.inl
+	"../vector_relational.hpp"
+	"compute_common.hpp"
+	"type_vec1.hpp"
+	"type_vec2.hpp"
+	"type_vec3.hpp"
+	"type_vec4.hpp"
+	"_vectorize.hpp"
+	<limits>
+	"func_common_simd.inl"
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\detail\compute_common.hpp
+	"setup.hpp"
+	<limits>
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\detail\func_common_simd.inl
+	"../simd/common.h"
+	<immintrin.h>
+
+1654672436 c:\program files\codeblocks\mingw\include\glm\simd\common.h
+	"platform.h"
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\detail\func_geometric_simd.inl
+	"../simd/geometric.h"
+
+1654672437 c:\program files\codeblocks\mingw\include\glm\simd\geometric.h
+	"common.h"
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\detail\func_matrix_simd.inl
+	"type_mat4x4.hpp"
+	"../geometric.hpp"
+	"../simd/matrix.h"
+	<cstring>
+
+1654672437 c:\program files\codeblocks\mingw\include\glm\simd\matrix.h
+	"geometric.h"
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_double2x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_float2x2.hpp
+	"../detail/type_mat2x2.hpp"
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_float2x2_precision.hpp
+	"../detail/type_mat2x2.hpp"
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\trigonometric.hpp
+	"detail/setup.hpp"
+	"detail/qualifier.hpp"
+	"detail/func_trigonometric.inl"
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\detail\func_trigonometric.inl
+	"_vectorize.hpp"
+	<cmath>
+	<limits>
+	"func_trigonometric_simd.inl"
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\detail\func_trigonometric_simd.inl
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\packing.hpp
+	"./ext/vector_uint2.hpp"
+	"./ext/vector_float2.hpp"
+	"./ext/vector_float4.hpp"
+	"detail/func_packing.inl"
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\detail\func_packing.inl
+	"../common.hpp"
+	"type_half.hpp"
+	"func_packing_simd.inl"
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\detail\type_half.hpp
+	"setup.hpp"
+	"type_half.inl"
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\detail\type_half.inl
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\detail\func_packing_simd.inl
+
+1654672425 c:\program files\codeblocks\mingw\include\glm\integer.hpp
+	"detail/qualifier.hpp"
+	"common.hpp"
+	"vector_relational.hpp"
+	"detail/func_integer.inl"
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\detail\func_integer.inl
+	"_vectorize.hpp"
+	<intrin.h>
+	<limits>
+	"func_integer_simd.inl"
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\detail\func_integer_simd.inl
+	"../simd/integer.h"
+
+1654672437 c:\program files\codeblocks\mingw\include\glm\simd\integer.h
+
+1654672436 c:\program files\codeblocks\mingw\include\glm\gtx\transform.hpp
+	"../glm.hpp"
+	"../gtc/matrix_transform.hpp"
+	"transform.inl"
+
+1654672432 c:\program files\codeblocks\mingw\include\glm\gtc\matrix_transform.hpp
+	"../mat4x4.hpp"
+	"../vec2.hpp"
+	"../vec3.hpp"
+	"../vec4.hpp"
+	"../ext/matrix_projection.hpp"
+	"../ext/matrix_clip_space.hpp"
+	"../ext/matrix_transform.hpp"
+	"matrix_transform.inl"
+
+1654672429 c:\program files\codeblocks\mingw\include\glm\ext\matrix_projection.hpp
+	"../gtc/constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+	"matrix_projection.inl"
+
+1654672432 c:\program files\codeblocks\mingw\include\glm\gtc\constants.hpp
+	"../ext/scalar_constants.hpp"
+	"constants.inl"
+
+1654672430 c:\program files\codeblocks\mingw\include\glm\ext\scalar_constants.hpp
+	"../detail/setup.hpp"
+	"scalar_constants.inl"
+
+1654672430 c:\program files\codeblocks\mingw\include\glm\ext\scalar_constants.inl
+	<limits>
+
+1654672432 c:\program files\codeblocks\mingw\include\glm\gtc\constants.inl
+
+1654672429 c:\program files\codeblocks\mingw\include\glm\ext\matrix_projection.inl
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_clip_space.hpp
+	"../ext/scalar_constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"matrix_clip_space.inl"
+
+1654672428 c:\program files\codeblocks\mingw\include\glm\ext\matrix_clip_space.inl
+
+1654672429 c:\program files\codeblocks\mingw\include\glm\ext\matrix_transform.hpp
+	"../gtc/constants.hpp"
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+	"matrix_transform.inl"
+
+1654672429 c:\program files\codeblocks\mingw\include\glm\ext\matrix_transform.inl
+
+1654672432 c:\program files\codeblocks\mingw\include\glm\gtc\matrix_transform.inl
+	"../geometric.hpp"
+	"../trigonometric.hpp"
+	"../matrix.hpp"
+
+1654672436 c:\program files\codeblocks\mingw\include\glm\gtx\transform.inl
+
+1585423512 c:\users\hyski\desktop\gl4lighting_freeglut\anim8orexport.h
+
+1585429108 c:\users\hyski\desktop\gl4lighting_freeglut\wazon.c
+	"Anim8orExport.h"
+
+1654672436 c:\program files\codeblocks\mingw\include\glm\gtx\rotate_vector.hpp
+	"../gtx/transform.hpp"
+	"../gtc/epsilon.hpp"
+	"../ext/vector_relational.hpp"
+	"../glm.hpp"
+	"rotate_vector.inl"
+
+1654672432 c:\program files\codeblocks\mingw\include\glm\gtc\epsilon.hpp
+	"../detail/setup.hpp"
+	"../detail/qualifier.hpp"
+	"epsilon.inl"
+
+1654672432 c:\program files\codeblocks\mingw\include\glm\gtc\epsilon.inl
+	"../vector_relational.hpp"
+	"../common.hpp"
+
+1654672432 c:\program files\codeblocks\mingw\include\glm\ext\vector_relational.hpp
+	"../detail/qualifier.hpp"
+	"vector_relational.inl"
+
+1654672432 c:\program files\codeblocks\mingw\include\glm\ext\vector_relational.inl
+	"../vector_relational.hpp"
+	"../common.hpp"
+	"../detail/qualifier.hpp"
+	"../detail/type_float.hpp"
+
+1654672426 c:\program files\codeblocks\mingw\include\glm\detail\type_float.hpp
+	"setup.hpp"
+
+1654672436 c:\program files\codeblocks\mingw\include\glm\gtx\rotate_vector.inl
+
+1657041076 c:\users\hyski\desktop\gl4lighting_freeglut\object.h
+	<iostream>
+	<vector>
+	<GL/glew.h>
+	<GL/glut.h>
+	<GL/glext.h>
+	"image_loader.h"
+	"obj_loader.h"
+
+1648551468 c:\program files\codeblocks\mingw\include\gl\glut.h
+	"freeglut_std.h"
+
+1301111164 c:\program files\codeblocks\mingw\include\gl\glext.h
+	<windows.h>
+
+1653635676 c:\users\hyski\desktop\gl4lighting_freeglut\image_loader.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1650315344 c:\users\hyski\desktop\gl4lighting_freeglut\obj_loader.h
+	<iostream>
+	<vector>
+	<string>
+	<fstream>
+	<math.h>
+
+1656332797 c:\users\hyski\desktop\gl4lighting_freeglut\shader.h
+	<GL/glew.h>
+	<GL/glut.h>
+	<GL/glext.h>
+
+1657124004 c:\users\hyski\desktop\gl4lighting_freeglut\particles.h
+
+1657188701 source:c:\users\dhyski\desktop\hyski\gl4lighting_freeglut\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<gl/glew.h>
+	<gl/freeglut.h>
+	<glm/glm.hpp>
+	<glm/gtx/transform.hpp>
+	<glm/gtx/rotate_vector.hpp>
+	<GL/glut.h>
+	<GL/glext.h>
+	<time.h>
+	"object.h"
+	"shader.h"
+	"particles.h"
+
+1657041076 c:\users\dhyski\desktop\hyski\gl4lighting_freeglut\object.h
+	<iostream>
+	<vector>
+	<GL/glew.h>
+	<GL/glut.h>
+	<GL/glext.h>
+	"image_loader.h"
+	"obj_loader.h"
+
+1653635676 c:\users\dhyski\desktop\hyski\gl4lighting_freeglut\image_loader.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1650315344 c:\users\dhyski\desktop\hyski\gl4lighting_freeglut\obj_loader.h
+	<iostream>
+	<vector>
+	<string>
+	<fstream>
+	<math.h>
+
+1656332797 c:\users\dhyski\desktop\hyski\gl4lighting_freeglut\shader.h
+	<GL/glew.h>
+	<GL/glut.h>
+	<GL/glext.h>
+
+1657124004 c:\users\dhyski\desktop\hyski\gl4lighting_freeglut\particles.h
+
+1657198699 source:c:\users\dhyski\desktop\hyski\ognisko\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<gl/glew.h>
+	<gl/freeglut.h>
+	<glm/gtx/rotate_vector.hpp>
+	<glm/gtx/transform.hpp>
+	<glm/glm.hpp>
+	<GL/glext.h>
+	<GL/glut.h>
+	<time.h>
+	"Model_obj.h"
+	"Particle.h"
+	"shader.h"
+
+1657041076 c:\users\dhyski\desktop\hyski\ognisko\object.h
+	<iostream>
+	<vector>
+	<GL/glew.h>
+	<GL/glut.h>
+	<GL/glext.h>
+	"image_loader.h"
+	"obj_loader.h"
+
+1653635676 c:\users\dhyski\desktop\hyski\ognisko\image_loader.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1650315344 c:\users\dhyski\desktop\hyski\ognisko\obj_loader.h
+	<iostream>
+	<vector>
+	<string>
+	<fstream>
+	<math.h>
+
+1657124004 c:\users\dhyski\desktop\hyski\ognisko\particles.h
+
+1657194745 c:\users\dhyski\desktop\hyski\ognisko\shader.h
+	<GL/glew.h>
+	<GL/glut.h>
+	<GL/glext.h>
+
+1657198854 c:\users\dhyski\desktop\hyski\ognisko\model_obj.h
+	<iostream>
+	<vector>
+	<GL/glew.h>
+	<GL/glut.h>
+	<GL/glext.h>
+	"Loader_img.h"
+	"Loader_obj.h"
+
+1656332797 c:\users\dhyski\desktop\hyski\ognisko\shadery.h
+	<GL/glew.h>
+	<GL/glut.h>
+	<GL/glext.h>
+
+1657193021 c:\users\dhyski\desktop\hyski\ognisko\particle.h
+
+1653635676 c:\users\dhyski\desktop\hyski\ognisko\loader_img.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1650315344 c:\users\dhyski\desktop\hyski\ognisko\loader_obj.h
+	<iostream>
+	<vector>
+	<string>
+	<fstream>
+	<math.h>
+
+1657220358 source:c:\users\hyski\desktop\ognisko\ognisko\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<gl/glew.h>
+	<gl/freeglut.h>
+	<glm/gtx/rotate_vector.hpp>
+	<glm/gtx/transform.hpp>
+	<glm/glm.hpp>
+	<GL/glext.h>
+	<GL/glut.h>
+	<time.h>
+	"Model_obj.h"
+	"Particle.h"
+	"shader.h"
+
+1657217992 c:\users\hyski\desktop\ognisko\ognisko\model_obj.h
+	<iostream>
+	<GL/glext.h>
+	<GL/glut.h>
+	<GL/glew.h>
+	<vector>
+	"Loader_img.h"
+	"Loader_obj.h"
+
+1653635676 c:\users\hyski\desktop\ognisko\ognisko\loader_img.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1650315344 c:\users\hyski\desktop\ognisko\ognisko\loader_obj.h
+	<iostream>
+	<vector>
+	<string>
+	<fstream>
+	<math.h>
+
+1657219868 c:\users\hyski\desktop\ognisko\ognisko\particle.h
+
+1657219459 c:\users\hyski\desktop\ognisko\ognisko\shader.h
+	<GL/glew.h>
+	<GL/glext.h>
+	<GL/glut.h>
+
+1657220552 source:c:\users\hyski\desktop\ognisko\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<gl/glew.h>
+	<gl/freeglut.h>
+	<glm/gtx/rotate_vector.hpp>
+	<glm/gtx/transform.hpp>
+	<glm/glm.hpp>
+	<GL/glext.h>
+	<GL/glut.h>
+	<time.h>
+	"Model_obj.h"
+	"Particle.h"
+	"shader.h"
+
+1657217992 c:\users\hyski\desktop\ognisko\model_obj.h
+	<iostream>
+	<GL/glext.h>
+	<GL/glut.h>
+	<GL/glew.h>
+	<vector>
+	"Loader_img.h"
+	"Loader_obj.h"
+
+1653635676 c:\users\hyski\desktop\ognisko\loader_img.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1650315344 c:\users\hyski\desktop\ognisko\loader_obj.h
+	<iostream>
+	<vector>
+	<string>
+	<fstream>
+	<math.h>
+
+1657219868 c:\users\hyski\desktop\ognisko\particle.h
+
+1657219459 c:\users\hyski\desktop\ognisko\shader.h
+	<GL/glew.h>
+	<GL/glext.h>
+	<GL/glut.h>
+
+1657218027 source:c:\users\hyski\desktop\ognisko_projekt\ognisko_projekt\ognisko\main.cpp
+	<iostream>
+	<fstream>
+	<string>
+	<gl/glew.h>
+	<gl/freeglut.h>
+	<glm/gtx/rotate_vector.hpp>
+	<glm/gtx/transform.hpp>
+	<glm/glm.hpp>
+	<GL/glext.h>
+	<GL/glut.h>
+	<time.h>
+	"Model_obj.h"
+	"Particle.h"
+	"shader.h"
+
+1657214392 c:\users\hyski\desktop\ognisko_projekt\ognisko_projekt\ognisko\model_obj.h
+	<iostream>
+	<GL/glext.h>
+	<GL/glut.h>
+	<GL/glew.h>
+	<vector>
+	"Loader_img.h"
+	"Loader_obj.h"
+
+1653632076 c:\users\hyski\desktop\ognisko_projekt\ognisko_projekt\ognisko\loader_img.h
+	"stb_image.h"
+	<stdio.h>
+	<stdlib.h>
+	<stdarg.h>
+	<stddef.h>
+	<stdlib.h>
+	<string.h>
+	<limits.h>
+	<math.h>
+	<stdio.h>
+	<assert.h>
+	<stdint.h>
+	<emmintrin.h>
+	<intrin.h>
+	<arm_neon.h>
+
+1650311744 c:\users\hyski\desktop\ognisko_projekt\ognisko_projekt\ognisko\loader_obj.h
+	<iostream>
+	<vector>
+	<string>
+	<fstream>
+	<math.h>
+
+1657216268 c:\users\hyski\desktop\ognisko_projekt\ognisko_projekt\ognisko\particle.h
+
+1657215859 c:\users\hyski\desktop\ognisko_projekt\ognisko_projekt\ognisko\shader.h
+	<GL/glew.h>
+	<GL/glext.h>
+	<GL/glut.h>
+
